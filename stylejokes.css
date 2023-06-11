@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/908/045/small_2x/happy-faces-on-pink-background-smiling-faces-on-purple-pink-gradient-backdrop-copy-space-for-your-funny-text-web-banner-social-media-design-vector.jpg); */
+    background-image: url(https://png.pngtree.com/background/20211215/original/pngtree-emoji-blue-gradient-social-media-background-picture-image_1461687.jpg);
+    /* background-image: url(https://png.pngtree.com/background/20211215/original/pngtree-emoji-blue-social-media-background-picture-image_1461695.jpg); */
+    /* background-color: yellow; */
+    -webkit-filter: blur(-8px);
+    filter: blur(-8px);
+    z-index: 9;
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.container{
+    /* background-color: black; */
+    padding: 4px;
+    margin: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    /* justify-self: end; */
+    float: inline-end;
+    color: beige;
+    z-index: 1;
+}
+h1{
+    font-size: 20vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;    
+    /* font-style: italic; */
+    font-variant:small-caps;
+    color: rgb(14, 1, 2);
+}
+h4{
+    font-family:cursive ;
+    font-weight: 100;
+    font-size: 7vh;
+    color: rgb(54, 13, 241);
+    font-style: italic;
+    /* background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-7130469.jpg&fm=jpg); */
+    margin: 2vh;
+    padding: 18px;
+    border-radius: 50px 0px 50px 0px;
+}
+.btn{
+    background-color: rgb(240, 15, 15);
+    color: white;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 10px;
+    margin: 10px;
+}
